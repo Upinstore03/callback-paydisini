@@ -1,4 +1,6 @@
+
 const crypto = require('crypto');
+require('dotenv').config();
 const api_key = process.env.API_KEY
 const payid = process.env.PAY_ID
 
