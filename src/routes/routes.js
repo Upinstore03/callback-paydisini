@@ -8,6 +8,6 @@ router.get('/', (req, res) => {
 });
 
 // Define route for handling requests
-router.post('/api/callback', handleCallback);
+router.post('/api', handleCallback);
 
 module.exports = router;
