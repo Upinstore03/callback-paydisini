@@ -2,7 +2,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 require('dotenv').config();
-const router = require('./src/routes/routes'); // Mengimpor router aplikasi
+const router = require('./routes/routes'); // Mengimpor router aplikasi
 
 // Inisialisasi aplikasi Express
 const app = express();
